@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/netsampler/goflow2/decoders/sflow"
-	flowmessage "github.com/netsampler/goflow2/pb"
+	flowmessage "github.com/23m/protobuf-flows"
 )
 
 func GetSFlowFlowSamples(packet *sflow.Packet) []interface{} {

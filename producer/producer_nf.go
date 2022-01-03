@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/netsampler/goflow2/decoders/netflow"
-	flowmessage "github.com/netsampler/goflow2/pb"
+	flowmessage "github.com/23m/protobuf-flows"
 )
 
 type SamplingRateSystem interface {

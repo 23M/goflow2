@@ -10,7 +10,7 @@ import (
 
 	"github.com/netsampler/goflow2/decoders/netflow"
 	"github.com/netsampler/goflow2/format"
-	flowmessage "github.com/netsampler/goflow2/pb"
+	flowmessage "github.com/23m/protobuf-flows"
 	"github.com/netsampler/goflow2/producer"
 	"github.com/netsampler/goflow2/transport"
 	"github.com/prometheus/client_golang/prometheus"

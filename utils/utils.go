@@ -12,7 +12,7 @@ import (
 	reuseport "github.com/libp2p/go-reuseport"
 	decoder "github.com/netsampler/goflow2/decoders"
 	"github.com/netsampler/goflow2/decoders/netflow"
-	flowmessage "github.com/netsampler/goflow2/pb"
+	flowmessage "github.com/23m/protobuf-flows"
 	"github.com/netsampler/goflow2/producer"
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/yaml.v2"

@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/netsampler/goflow2/decoders/netflowlegacy"
-	flowmessage "github.com/netsampler/goflow2/pb"
+	flowmessage "github.com/23m/protobuf-flows"
 )
 
 func ConvertNetFlowLegacyRecord(baseTime uint32, uptime uint32, record netflowlegacy.RecordsNetFlowV5) *flowmessage.FlowMessage {
